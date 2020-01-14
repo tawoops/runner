@@ -23,7 +23,7 @@ For steps that have completed, populate `steps.<id>.conclusion` with one of the 
 
 The term `conclusion` aligns with the runs API.
 
-For example, see following snippet from response payload:
+The following is a snippet from the runs API response payload:
 
 ```json
       "steps": [
