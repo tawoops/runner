@@ -19,7 +19,7 @@ For steps that have completed, populate `steps.<id>.conclusion` with one of the 
 - `cancelled`
 - `skipped`
 
-### Aligns with runs API
+### Terminology aligns with runs API
 
 The term `conclusion` aligns with the runs API.
 
