@@ -19,6 +19,24 @@ For steps that have completed, populate `steps.<id>.conclusion` with one of the 
 - `cancelled`
 - `skipped`
 
+### Aligns with runs API
+
+The term `conclusion` aligns with the runs API.
+
+For example, see following snippet from response payload:
+
+```json
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 1,
+          "started_at": "2020-01-09T11:06:16.000-05:00",
+          "completed_at": "2020-01-09T11:06:18.000-05:00"
+        },
+```
+
 ## Consequences
 
 - Update runner
